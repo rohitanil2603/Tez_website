@@ -1,0 +1,101 @@
+
+
+.container001 {
+  margin-top: 6%;
+  width: 100%;
+  max-width: 400px; /* Limit the maximum width of the container */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.form_container002 {
+  padding: 30px;
+}
+
+.form_container002 h2 {
+  margin-top: 0;
+}
+
+.form_container002 label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form_container002 input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#submit001 {
+  width: 100%;
+  padding: 10px;
+  background-color:rgb(45, 44, 44);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#submit001:hover{
+  background-color:rgb(57, 56, 56);
+}
+
+
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.error-msg {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.error-border {
+  border: 3px solid red;
+}
+
+
+/* Add the red border style to the username field */
+.input002.error {
+  border: 3px solid red;
+}
+
+
+
+
+
+
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .container001{
+    margin-top:15%;
+  }
+}
